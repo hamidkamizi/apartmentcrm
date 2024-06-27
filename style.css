@@ -1,0 +1,197 @@
+/* General Styles */
+@font-face {
+    font-family: 'Iransans'; /* Name your font */
+    src: url('fonts/your-IRANSans.ttf') format('truetype'); /* Path to your .ttf font file */
+    /* Optionally, you can include other font formats like woff, woff2 for better cross-browser support */
+}
+
+body {
+    font-family: 'Iransans', Arial, sans-serif; /* Use your custom font as the primary font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    direction: rtl; /* Right-to-left direction for Persian text */
+    text-align: right; /* Align text to the right */
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #45a049;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Chart Styles */
+.chart-container {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Other Element Styles */
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.alert.success {
+    background-color: #4CAF50;
+}
+
+.alert.info {
+    background-color: #2196F3;
+}
+
+.alert.warning {
+    background-color: #ff9800;
+}
+
+h1 {
+    text-align: center; /* Center-align the heading */
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #f2f2f2;
+}
+
+/* style.css */
+
+/* Custom styles for footer watermark */
+.footer-watermark {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+}
+
+
+
+/* style.css */
+
+.float-button {
+    position: fixed;
+    bottom: 20px; /* Adjust bottom spacing as needed */
+    left: 20px; /* Position in bottom left corner */
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.float-button:hover {
+    background-color: #0056b3;
+}
+
